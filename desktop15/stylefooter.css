@@ -1,9 +1,11 @@
 .footer {
     background-color: #cfff69;
-    height: 410px;
+    height: 310px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 50px;
+    /* margin-top: auto; */
+    /* margin-bottom: 0; */
   }
   #foot_1 {
     display: flex;

@@ -208,7 +208,7 @@ body{
     margin-bottom: 30px;
 }
 .sportinfo .sportname{
-    margin: 5vh 0vw 2.5vh 8.5vw;
+    margin: 5vh 0vw 2.5vh 11vw;
     font-size: 4rem;
     font-family: garamond_italic;
     /* font-style: italic; */
@@ -479,6 +479,9 @@ margin-left: 2vw;
     
 
     @media screen and (max-width: 800px){
+        .sportinfo .sportname {
+            margin: auto;
+        }
         .maincard{
             display: flex;
             flex-direction: column;
