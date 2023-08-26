@@ -116,12 +116,15 @@ body{
     justify-content: space-around;
     align-items: center;
     font-size: 25px;
-    margin-left: -1vw;
-    margin-right: -1vw;
     margin-top: -0.69vh;
     background-color: rgb(181, 255, 70);
     font-family: fontSatoshi;
     font-weight: 600;
+}
+@media screen and (max-width: 980px) {
+    .header.two{
+        height: 4vh;
+    }
 }
 .sports{
     width: 23vw;
