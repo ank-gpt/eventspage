@@ -3,11 +3,6 @@
   margin: 0;
   padding: 0;
 }
-body{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
 .header1 {
   background-color: #141414;
   border-bottom: #cfff69 solid 1px;
@@ -121,10 +116,6 @@ body{
 .con a {
   text-decoration: none;
   color: #000000;
-}
-.footer{
-  position: relative;
-  top: 1.5vw;
 }
 @media screen and (min-width: 1300px) {
   .hlinks li {

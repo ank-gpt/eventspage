@@ -1,4 +1,4 @@
-var input,temp;
+var input,temp,temp2;
 window.onload = ()=>{
   localStorage.setItem("check", 1);
 }
@@ -43,6 +43,11 @@ const find2 = (text)=>{
         localStorage.setItem("check", 0);
         var text2 = text;
         var node = document.getElementsByClassName(`${text}`)[0];
+        node.style.color = "yellow";
+        if(temp2 != text2 && document.getElementsByClassName(`${temp2}`)[0] != null){
+            document.getElementsByClassName(`${temp2}`)[0].style.color = "white";
+        }
+        temp2 = text;
         cardtext[0].innerHTML = node.textContent;
         cardtext[1].innerHTML = node.textContent;
         temp = node.textContent;
